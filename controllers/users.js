@@ -1,6 +1,7 @@
 const mysql = require('mysql')
 const pool = require('../sql/connection')
-const { handleSQLError } = require('../sql/error')
+const { handleSQLError } = require('../sql/error') // in order to use this line, you must have an error.js under sql folder
+
 
 const getAllUsers = (req, res) => {
   // SELECT ALL USERS
