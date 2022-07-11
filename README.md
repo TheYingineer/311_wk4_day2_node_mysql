@@ -2,9 +2,9 @@
 
 ## Setup
 
-Initialize and run the app: `npm install` && `npm start`.
+Initialize and run the app: `npm install` && `npm start`. (done)
 
-The app is using `nodemon`. Any changes made (and saved) will cause the server to restart.
+The app is using `nodemon`. Any changes made (and saved) will cause the server to restart. (done)
 
 Navigate to the `sql/connections.js` file and alter the following fields to reflect your database setup:
 
@@ -14,10 +14,12 @@ Navigate to the `sql/connections.js` file and alter the following fields to refl
   password: 'password',
   database: 'admin'
 ```
+(done)
 
 These will be the same credentials we used to set up a connection in MySQL Workbench.
 
-Finally, in MySQL Workbench, run the `initialize.sql` script that is included in this project.
+Finally, in MySQL Workbench, run the `initialize.sql` script that is included in this project. (I think I did this right... 
+all I did was to select all and copy and paste from initialize.sql file and paste it into MYSQL Workbench.  see my word doc for specific instructions.  done :) )
 
 ## Overview
 

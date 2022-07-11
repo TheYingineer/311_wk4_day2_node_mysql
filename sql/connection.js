@@ -22,7 +22,7 @@ class Connection {
         user: 'root',
         password: 'password',
         database: 'admin'
-      })
+      }) //ASK CESAR: How can I create the npm i dotenv without crashing the program
 
       return this.pool
     }
