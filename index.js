@@ -1,5 +1,5 @@
 const express = require("express");
-// require("dotenv").config()
+require("dotenv").config()
 const bodyParser = require("body-parser");
 const usersRouter = require('./routers/users');
 const addressRouter = require('./routers/usersAddress');
@@ -19,6 +19,7 @@ app.get('/', (req, res) => {
   res.send('Welcome to our server Homepage!')
 })
 
+console.log(process.env.DB_HOST)
 app.listen(port, () => {
  console.log(`Web server is listening on port ${port}!`);
 });
